@@ -1,4 +1,6 @@
-## A multicast video/webcam streaming program written in python. The program will implement a custom UDP protocol with some addition features 
+## A multicast video/webcam streaming program written in python. 
+
+The program will implement a custom UDP protocol with some addition features 
 (sequence numbers, source and destination in the protocol header). The data in the payload will need to be encrytped using a simple symetric key encryption scheme.
 
 retransmitted and duplicated packets should be dropped, but out of order packets need to be rapidly sorted or otherwise dropped to ensure smoother video feed.
